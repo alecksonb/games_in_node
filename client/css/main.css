@@ -1,0 +1,120 @@
+ /*		#wrapper{
+			height:100%;
+			width:100%;
+		}*/
+ 
+ body {
+     background-color: black;
+     margin: 0px;
+ }
+ #container
+ {
+     margin:0px;
+ }
+ 
+
+ .row{
+     height: 20px;
+ }
+
+ div.row div{
+     height: 20px;
+     width: 20px;
+     /*border: 1px solid black;*/
+     display: inline-block;
+     margin:0px;
+ }
+ 
+ div.brick {
+     background-color: blue;
+ }
+ 
+ div.coin {
+     background-image: url("../images/Pacman/coin.gif");     
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ div.coin img
+ {
+     height:50px;
+     width:50px;
+ }
+ 
+ div.empty {}
+ 
+ div#pacman {
+     background-image: url("../images/Pacman/pacman.gif");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+     position: absolute;
+ }
+  div.power_pellet {
+     background-image: url("../images/Pacman/powerpellet.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+ }
+   div.fruit {
+     background-image: url("../images/Pacman/strawberry.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+ }
+
+   div.pink_ghost {
+     background-image: url("../images/Pacman/pink_ghost.gif");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+ }
+  div.red_ghost {
+     background-image: url("../images/Pacman/red_ghost.gif");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+ }
+  div.teal_ghost {
+     background-image: url("../images/Pacman/teal_ghost.gif");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+ }
+  div.orange_ghost {
+     background-image: url("../images/Pacman/orange_ghost.gif");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 20px;
+     height: 20px;
+ }
+
+ div#score {
+     border: 1px solid white;
+     width: 60px;
+     height: 60px;
+     color: white;
+     padding: 7px;
+     text-align: center;
+     position: absolute;
+     top: 0px;
+     left: 560px;
+ }
+ div#win {
+     background-color:yellow;
+     display: none;
+     font-size:50px;
+     padding:20px;
+ }
